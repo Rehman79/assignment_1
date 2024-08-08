@@ -1,6 +1,7 @@
 # develop_basics
 
 A new Flutter project.
+Displaying a list of Strings in a UI using ListView.builder
 
 ## Getting Started
 
