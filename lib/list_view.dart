@@ -18,7 +18,7 @@ class list_view extends StatelessWidget {
           child: ListTile(
             title: Text(cu_list[index],style: TextStyle(color: Colors.black87,fontSize: 20,fontWeight: FontWeight.bold),),
             onTap: (){
-              final snackbar= SnackBar(content: Text(' ${cu_list[index]}'),duration: Duration(seconds: 3));
+              final snackbar= SnackBar(content: Text(' ${cu_list[index]}'),duration: Duration(seconds: 1));
               ScaffoldMessenger.of(context).showSnackBar(snackbar);
             },
           )
